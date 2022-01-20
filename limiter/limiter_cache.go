@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xxjwxc/public/message"
-	"github.com/xxjwxc/public/mycache"
-	"github.com/xxjwxc/public/myglobal"
+	"github.com/mattlaibybit/public/message"
+	"github.com/mattlaibybit/public/mycache"
+	"github.com/mattlaibybit/public/myglobal"
 	"golang.org/x/sync/semaphore"
 )
 

@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xxjwxc/gowp/limiter"
+	"github.com/mattlaibybit/gowp/limiter"
 )
 
 func main() {
@@ -42,8 +42,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xxjwxc/gowp/limiter"
-	"github.com/xxjwxc/public/myredis"
+	"github.com/mattlaibybit/gowp/limiter"
+	"github.com/mattlaibybit/public/myredis"
 )
 
 func main() {

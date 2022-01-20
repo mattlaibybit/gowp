@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xxjwxc/public/errors"
+	"github.com/mattlaibybit/public/errors"
 )
 
 // template

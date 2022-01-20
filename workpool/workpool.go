@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/xxjwxc/public/myqueue"
+	"github.com/mattlaibybit/public/myqueue"
 )
 
 // New new workpool and set the max number of concurrencies

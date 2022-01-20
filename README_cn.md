@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/xxjwxc/gowp.svg?branch=master)](https://travis-ci.org/xxjwxc/gowp)
-[![Go Report Card](https://goreportcard.com/badge/github.com/xxjwxc/gowp)](https://goreportcard.com/report/github.com/xxjwxc/gowp)
-[![codecov](https://codecov.io/gh/xxjwxc/gowp/branch/master/graph/badge.svg)](https://codecov.io/gh/xxjwxc/gowp)
-[![GoDoc](https://godoc.org/github.com/xxjwxc/gowp?status.svg)](https://godoc.org/github.com/xxjwxc/gowp)
+[![Build Status](https://travis-ci.org/mattlaibybit/gowp.svg?branch=master)](https://travis-ci.org/mattlaibybit/gowp)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mattlaibybit/gowp)](https://goreportcard.com/report/github.com/mattlaibybit/gowp)
+[![codecov](https://codecov.io/gh/mattlaibybit/gowp/branch/master/graph/badge.svg)](https://codecov.io/gh/mattlaibybit/gowp)
+[![GoDoc](https://godoc.org/github.com/mattlaibybit/gowp?status.svg)](https://godoc.org/github.com/mattlaibybit/gowp)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
 
 
@@ -10,7 +10,7 @@
 - 并发限制goroutine池。
 - 限制任务执行的并发性，而不是排队的任务数。
 - 无论排队多少任务，都不会阻止提交任务。
-- 通过队列支持[queue](https://github.com/xxjwxc/public/tree/master/myqueue)
+- 通过队列支持[queue](https://github.com/mattlaibybit/public/tree/master/myqueue)
 - 限流器 限制并发数
 
 ### golang 工作池公共库
@@ -20,7 +20,7 @@
 安装最简单方法:
 
 ```
-$ go get github.com/xxjwxc/gowp
+$ go get github.com/mattlaibybit/gowp
 ```
 
 ### 支持最大任务数, 放到工作池里面 并等待全部完成
@@ -32,7 +32,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xxjwxc/gowp/workpool"
+	"github.com/mattlaibybit/gowp/workpool"
 )
 
 func main() {
@@ -62,7 +62,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xxjwxc/gowp/workpool"
+	"github.com/mattlaibybit/gowp/workpool"
 )
 
 func main() {
@@ -99,7 +99,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xxjwxc/gowp/workpool"
+	"github.com/mattlaibybit/gowp/workpool"
 )
 
 func main() {
@@ -131,7 +131,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xxjwxc/gowp/workpool"
+	"github.com/mattlaibybit/gowp/workpool"
 )
 
 func main() {
@@ -170,7 +170,7 @@ import (
 	"fmt"
 	"time"
 	"time"
-	"github.com/xxjwxc/gowp/workpool"
+	"github.com/mattlaibybit/gowp/workpool"
 )
 
 func main() {
@@ -206,7 +206,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xxjwxc/gowp/limiter"
+	"github.com/mattlaibybit/gowp/limiter"
 )
 
 func main() {
@@ -237,8 +237,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xxjwxc/gowp/limiter"
-	"github.com/xxjwxc/public/myredis"
+	"github.com/mattlaibybit/gowp/limiter"
+	"github.com/mattlaibybit/public/myredis"
 )
 
 func main() {

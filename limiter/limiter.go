@@ -3,7 +3,7 @@ package limiter
 import (
 	"time"
 
-	"github.com/xxjwxc/public/myredis"
+	"github.com/mattlaibybit/public/myredis"
 )
 
 type mySemaphore struct {

@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xxjwxc/public/myqueue"
+	"github.com/mattlaibybit/public/myqueue"
 )
 
 // TaskHandler Define function callbacks

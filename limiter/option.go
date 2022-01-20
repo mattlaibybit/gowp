@@ -1,6 +1,6 @@
 package limiter
 
-import "github.com/xxjwxc/public/myredis"
+import "github.com/mattlaibybit/public/myredis"
 
 type Option interface {
 	apply(*mySemaphore)

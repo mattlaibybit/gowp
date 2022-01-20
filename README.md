@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/xxjwxc/gowp.svg?branch=master)](https://travis-ci.org/xxjwxc/gowp)
-[![Go Report Card](https://goreportcard.com/badge/github.com/xxjwxc/gowp)](https://goreportcard.com/report/github.com/xxjwxc/gowp)
-[![codecov](https://codecov.io/gh/xxjwxc/gowp/branch/master/graph/badge.svg)](https://codecov.io/gh/xxjwxc/gowp)
-[![GoDoc](https://godoc.org/github.com/xxjwxc/gowp?status.svg)](https://godoc.org/github.com/xxjwxc/gowp)
+[![Build Status](https://travis-ci.org/mattlaibybit/gowp.svg?branch=master)](https://travis-ci.org/mattlaibybit/gowp)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mattlaibybit/gowp)](https://goreportcard.com/report/github.com/mattlaibybit/gowp)
+[![codecov](https://codecov.io/gh/mattlaibybit/gowp/branch/master/graph/badge.svg)](https://codecov.io/gh/mattlaibybit/gowp)
+[![GoDoc](https://godoc.org/github.com/mattlaibybit/gowp?status.svg)](https://godoc.org/github.com/mattlaibybit/gowp)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
 
 ## golang worker pool
@@ -12,7 +12,7 @@
 - Limits the concurrency of task execution, not the number of tasks queued. 
 - Never blocks submitting tasks, no matter how many tasks are queued.
 - Support timeout
-- Support through security queues [queue](https://github.com/xxjwxc/public/tree/master/myqueue)
+- Support through security queues [queue](https://github.com/mattlaibybit/public/tree/master/myqueue)
 
 
 ## Installation
@@ -20,7 +20,7 @@
 The simplest way to install the library is to run:
 
 ```
-$ go get github.com/xxjwxc/gowp
+$ go get github.com/mattlaibybit/gowp
 ```
 
 
@@ -35,7 +35,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xxjwxc/gowp/workpool"
+	"github.com/mattlaibybit/gowp/workpool"
 )
 
 func main() {
@@ -67,7 +67,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xxjwxc/gowp/workpool"
+	"github.com/mattlaibybit/gowp/workpool"
 )
 
 func main() {
@@ -104,7 +104,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xxjwxc/gowp/workpool"
+	"github.com/mattlaibybit/gowp/workpool"
 )
 
 func main() {
@@ -136,7 +136,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xxjwxc/gowp/workpool"
+	"github.com/mattlaibybit/gowp/workpool"
 )
 
 func main() {
@@ -175,7 +175,7 @@ import (
 	"fmt"
 	"time"
 	"time"
-	"github.com/xxjwxc/gowp/workpool"
+	"github.com/mattlaibybit/gowp/workpool"
 )
 
 func main() {
@@ -212,7 +212,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xxjwxc/gowp/limiter"
+	"github.com/mattlaibybit/gowp/limiter"
 )
 
 func main() {
@@ -243,8 +243,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xxjwxc/gowp/limiter"
-	"github.com/xxjwxc/public/myredis"
+	"github.com/mattlaibybit/gowp/limiter"
+	"github.com/mattlaibybit/public/myredis"
 )
 
 func main() {

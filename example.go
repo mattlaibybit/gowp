@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/xxjwxc/gowp/workpool"
+	"github.com/mattlaibybit/gowp/workpool"
 )
 
 func tets() {
